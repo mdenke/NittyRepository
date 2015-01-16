@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/checkmark">
+        <TextView
+            android:text="Note"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:text="No Description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDescription"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:text="No Result"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblScore"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+</RelativeLayout>

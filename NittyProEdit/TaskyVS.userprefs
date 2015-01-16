@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky.Droid\Resources\Values\Strings.xml">
+    <Files>
+      <File FileName="Tasky.Droid\Resources\Values\Strings.xml" Line="13" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Nitty.Droid\Nitty.Droid.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Nitty.Droid MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

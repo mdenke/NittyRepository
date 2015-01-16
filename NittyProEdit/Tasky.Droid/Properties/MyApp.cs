@@ -11,8 +11,12 @@ namespace Nitty.Droid
 			loggedIn,
 			loggedOut
 		}
-		public logStatus logState = logStatus.loggedOut;
+		private logStatus logState;
 		private int userId;
+
+		public MyApp(logStatus status=logStatus.loggedOut){
+			logState = status;
+		}
 
 		public int getUserId(){
 			try{

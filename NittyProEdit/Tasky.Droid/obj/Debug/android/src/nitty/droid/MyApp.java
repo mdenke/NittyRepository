@@ -18,9 +18,14 @@ public class MyApp
 		super ();
 	}
 
+	public MyApp (int p0) throws java.lang.Throwable
+	{
+		super ();
+	}
+
 	public void onCreate ()
 	{
-		mono.android.Runtime.register ("Nitty.Droid.MyApp, Tasky.Android, Version=1.0.5494.25959, Culture=neutral, PublicKeyToken=null", MyApp.class, __md_methods);
+		mono.android.Runtime.register ("Nitty.Droid.MyApp, Tasky.Android, Version=1.0.5494.30833, Culture=neutral, PublicKeyToken=null", MyApp.class, __md_methods);
 		super.onCreate ();
 	}
 

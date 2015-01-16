@@ -11,7 +11,7 @@ public class OptionsScreen
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Nitty.Droid.OptionsScreen, Tasky.Android, Version=1.0.5494.25959, Culture=neutral, PublicKeyToken=null", OptionsScreen.class, __md_methods);
+		mono.android.Runtime.register ("Nitty.Droid.OptionsScreen, Tasky.Android, Version=1.0.5494.30833, Culture=neutral, PublicKeyToken=null", OptionsScreen.class, __md_methods);
 	}
 
 
@@ -19,7 +19,7 @@ public class OptionsScreen
 	{
 		super ();
 		if (getClass () == OptionsScreen.class)
-			mono.android.TypeManager.Activate ("Nitty.Droid.OptionsScreen, Tasky.Android, Version=1.0.5494.25959, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Nitty.Droid.OptionsScreen, Tasky.Android, Version=1.0.5494.30833, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

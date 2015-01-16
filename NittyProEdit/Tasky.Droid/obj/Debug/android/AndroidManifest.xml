@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.3" package="com.xamarin.samples.taskydroid" android:versionCode="4">
-  <application android:name="nitty.droid.MyApp" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@style/Theme.TaskyPro" android:label="Nitty">
+  <application android:name="nitty.droid.AppGlobals" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@style/Theme.TaskyPro" android:label="Nitty">
     <activity android:label="Profile Details" android:name="nitty.droid.screens.ProfileDetailsScreen" />
     <activity android:label="Welcome Screen" android:name="nitty.droid.screens.WelcomeScreen">
       <intent-filter>

@@ -27,8 +27,8 @@ namespace Nitty.Droid
 			SetContentView(Resource.Layout.OptionsScreen);
 
 			// determine if we are logged in or not
-			MyApp appState = new MyApp ();
-			appState = (MyApp)Application.Context;
+			AppGlobals appState = new AppGlobals ();
+			appState = (AppGlobals)Application.Context;
 			bool loggedIn = appState.isLoggedIn();
 
 			//Find our controls
@@ -36,15 +36,19 @@ namespace Nitty.Droid
 			Button btnResults = (Button)FindViewById<Button> (Resource.Id.buttonResults);
 			Button btnProfile = (Button)FindViewById<Button> (Resource.Id.buttonProfile);
 
-			//Set our context sensitive content
+			//get our context and resource references
+			Context context = this;
+			// Get the Resources object from our context
+			Android.Content.Res.Resources res = context.Resources;
+
+			//set context changes
 			if (loggedIn) {
-				btnProfile.Text = "@string / signOut";
+				btnProfile.Text = res.GetString (Resource.String.signOut);
 				btnResults.Visibility = ViewStates.Visible;
 			} else {
-				btnProfile.Text = "@string / signIn";
+				btnProfile.Text = res.GetString(Resource.String.signIn); 
 				btnResults.Visibility = ViewStates.Gone;
 			}
-
 		}
 	}
 }

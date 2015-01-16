@@ -3,7 +3,7 @@ using Android.App;
 
 namespace Nitty.Droid
 {
-	class MyApp : Application {
+	class AppGlobals : Application {
 
 		//todo: needs testing.
 
@@ -14,7 +14,7 @@ namespace Nitty.Droid
 		private logStatus logState;
 		private int userId;
 
-		public MyApp(logStatus status=logStatus.loggedOut){
+		public AppGlobals(logStatus status=logStatus.loggedOut){
 			logState = status;
 		}
 
@@ -24,7 +24,7 @@ namespace Nitty.Droid
 			}
 			catch(NullReferenceException){
 				Console.WriteLine ("Can not use MyApp.getuserId() without having already logged a user in!");
-				return 0;
+				return -1;
 			}
 		}
 

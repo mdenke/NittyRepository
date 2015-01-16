@@ -14,7 +14,7 @@ public class ChooseProfileScreen
 			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
 			"n_onOptionsItemSelected:(Landroid/view/MenuItem;)Z:GetOnOptionsItemSelected_Landroid_view_MenuItem_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Nitty.Droid.Screens.ChooseProfileScreen, Tasky.Android, Version=1.0.5494.30833, Culture=neutral, PublicKeyToken=null", ChooseProfileScreen.class, __md_methods);
+		mono.android.Runtime.register ("Nitty.Droid.Screens.ChooseProfileScreen, Tasky.Android, Version=1.0.5494.31895, Culture=neutral, PublicKeyToken=null", ChooseProfileScreen.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class ChooseProfileScreen
 	{
 		super ();
 		if (getClass () == ChooseProfileScreen.class)
-			mono.android.TypeManager.Activate ("Nitty.Droid.Screens.ChooseProfileScreen, Tasky.Android, Version=1.0.5494.30833, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Nitty.Droid.Screens.ChooseProfileScreen, Tasky.Android, Version=1.0.5494.31895, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

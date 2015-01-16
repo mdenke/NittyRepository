@@ -89,7 +89,7 @@
     <Compile Include="Screens\WelcomeScreen.cs" />
     <Compile Include="Screens\ChooseProfileScreen.cs" />
     <Compile Include="Screens\OptionsScreen.cs" />
-    <Compile Include="Properties\MyApp.cs" />
+    <Compile Include="Properties\AppGlobals.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AboutAssets.txt" />

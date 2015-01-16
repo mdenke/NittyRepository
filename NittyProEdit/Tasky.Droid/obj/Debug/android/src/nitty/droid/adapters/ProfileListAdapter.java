@@ -14,7 +14,7 @@ public class ProfileListAdapter
 			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Nitty.Droid.Adapters.ProfileListAdapter, Tasky.Android, Version=1.0.5494.22844, Culture=neutral, PublicKeyToken=null", ProfileListAdapter.class, __md_methods);
+		mono.android.Runtime.register ("Nitty.Droid.Adapters.ProfileListAdapter, Tasky.Android, Version=1.0.5494.25959, Culture=neutral, PublicKeyToken=null", ProfileListAdapter.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class ProfileListAdapter
 	{
 		super ();
 		if (getClass () == ProfileListAdapter.class)
-			mono.android.TypeManager.Activate ("Nitty.Droid.Adapters.ProfileListAdapter, Tasky.Android, Version=1.0.5494.22844, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Nitty.Droid.Adapters.ProfileListAdapter, Tasky.Android, Version=1.0.5494.25959, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

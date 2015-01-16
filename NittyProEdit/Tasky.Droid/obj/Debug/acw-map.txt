@@ -4,3 +4,4 @@ Nitty.Droid.Adapters.ScoreListAdapter;nitty.droid.adapters.ScoreListAdapter
 Nitty.Droid.Screens.WelcomeScreen;nitty.droid.screens.WelcomeScreen
 Nitty.Droid.Screens.ChooseProfileScreen;nitty.droid.screens.ChooseProfileScreen
 Nitty.Droid.OptionsScreen;nitty.droid.OptionsScreen
+Nitty.Droid.MyApp;nitty.droid.MyApp
